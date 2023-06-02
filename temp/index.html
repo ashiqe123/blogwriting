@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Blog</title>
+</head>
+<body style="background-color: black;" >
+        <header>
+            <div class="nav container">
+                 <a href="" class="logo">My <span>Blog</span></a>
+
+                <a href="" class="login">login</a>
+            </div>
+        </header>
+
+        
+        <section class="home" id="home">
+                <div class="home-text container">
+                        <h2 class="home-title">the my Blogs</h2>
+                        <span class="home-subtitle">the one place for complete BLOG</span>
+                </div>
+        </section>
+
+        <div class="post-filter container">
+            <span class="filter-item active-filter" data-filter="all">All</span>
+            <span class="filter-item " data-filter="nature">Nature</span>
+            <span class="filter-item " data-filter="tech">Tech</span>
+            <span class="filter-item " data-filter="mobile">Mobile</span>
+        </div>
+
+
+        <section class="post container" >
+                <div class="post-box mobile">
+                    <img src="static/image/post1.jpg" alt="" class="post-img">
+                    <h2 class="category">Mobile</h2>
+                    <a href="{% url 'view' %}" class="post-title">
+                        How  choos  best Smart Phone 
+                    </a>
+                    <span class="post-date">12 mar 2023</span>
+                    <p class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
+                
+
+                <div class="profile">
+                <img src="static/image/profile.jpg" class="profile-img" alt="">
+                <span class="profile-name">Ashiq Mohd</span>
+                </div>
+            </div>
+
+
+            <div class="post-box mobile">
+                <img src="static/image/post2.jpg.jpg" alt="" class="post-img">
+                <h2 class="category">Mobile</h2>
+                <a href="#" class="post-title">
+                    How  choos  best Smart Phone 
+                </a>
+                <span class="post-date">12 mar 2023</span>
+                <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
+            
+
+            <div class="profile">
+            <img src="static/image/profile.jpg" class="profile-img" alt="">
+            <span class="profile-name">Ashiq Mohd</span>
+            </div>
+        </div>
+
+
+
+        <div class="post-box tech">
+            <img src="static/image/post3.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="{% url 'post2' %}" class="post-title">
+                How ML & AI change lifes
+            </a>
+            <span class="post-date">12 mar 2023</span>
+            <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            
+        
+
+        <div class="profile">
+        <img src="static/image/profile.jpg" class="profile-img" alt="">
+        <span class="profile-name">Ashiq Mohd</span>
+        </div>
+    </div>
+
+
+
+    <div class="post-box nature">
+        <img src="static/image/post7.jpg" alt="" class="post-img">
+        <h2 class="category">Nature</h2>
+        <a href="{% url 'post3' %}" class="post-title">
+            Is nature connected with US? 
+        </a>
+        <span class="post-date">12 aug 2023</span>
+        <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        
+    
+
+    <div class="profile">
+    <img src="static/image/profile.jpg" class="profile-img" alt="">
+    <span class="profile-name">Ashiq Mohd</span>
+    </div>
+</div>
+
+
+
+<div class="post-box tech">
+    <img src="static/image/post5.jpg" alt="" class="post-img">
+    <h2 class="category">Tech</h2>
+    <a href="#" class="post-title">
+        technology is future!
+    </a>
+    <span class="post-date">12 mar 2023</span>
+    <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+
+
+<div class="profile">
+<img src="static/image/profile.jpg" class="profile-img" alt="">
+<span class="profile-name">Ashiq Mohd</span>
+</div>
+</div>
+
+
+
+<div class="post-box nature">
+    <img src="static/image/post6.jpg" alt="" class="post-img">
+    <h2 class="category">Nature</h2>
+    <a href="#" class="post-title">
+        How  choos  best Smart Phone 
+    </a>
+    <span class="post-date">22 mar 2023</span>
+    <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+
+
+<div class="profile">
+<img src="static/image/profile.jpg" class="profile-img" alt="">
+<span class="profile-name">Ashiq Mohd</span>
+</div>
+</div>
+
+
+<div class="post-box mobile">
+    <img src="static/image/post13.jpg" alt="" class="post-img">
+    <h2 class="category">Mobile</h2>
+    <a href="" class="post-title">
+        How  choos  best Smart Phone 
+    </a>
+    <span class="post-date">22 mar 2023</span>
+    <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+
+
+<div class="profile">
+<img src="static/image/profile.jpg" class="profile-img" alt="">
+<span class="profile-name">Ashiq Mohd</span>
+</div>
+</div>
+
+
+<div class="post-box nature">
+    <img src="static/image/post11.jpg" alt="" class="post-img">
+    <h2 class="category">Nature</h2>
+    <a href="#" class="post-title">
+        How  choos  best Smart Phone 
+    </a>
+    <span class="post-date">22 mar 2023</span>
+    <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+
+
+<div class="profile">
+<img src="static/image/profile.jpg" class="profile-img" alt="">
+<span class="profile-name">Ashiq Mohd</span>
+</div>
+</div>
+
+
+<div class="post-box tech">
+    <img src="static/image/post12.jpg" alt="" class="post-img">
+    <h2 class="category">Tech</h2>
+    <a href="#" class="post-title">
+        How  choos  best Smart Phone 
+    </a>
+    <span class="post-date">22 mar 2023</span>
+    <p  class="post-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+
+
+<div class="profile">
+<img src="static/image/profile.jpg" class="profile-img" alt="">
+<span class="profile-name">Ashiq Mohd</span>
+</div>
+</div>
+        </section>
+
+        <div class="footer container">
+            <p>&#169; MyBlog all rights Reserved</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
